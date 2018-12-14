@@ -6,33 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
 
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet"> 
     <script type="text/javascript" src="javascript/main.js"></script>
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
 <body>
      <div id="hide2" class="screen">
         <div class="video">
-            <video id="loadScreen" src="./vid/load.mp4" muted ></video>
+            <video autoplay id="loadScreen" src="./vid/load.mp4" muted onended="projects()"></video>
         </div>    
     </div>
     
     <div id="hide1" class="txt">
     <ul>
         <li>About me</li><br>
-        <li>Skills</li><br>
         <li>Projects</li><br>
+        <li>Turn Off</li><br> <!-- Change name later (will trigger end bg vid and turn off effect.) -->
     </ul>
     </div>
 
     <div class="start">
         <!-- Removed autoplay for coding purposes -->
-        <video autoplay muted id="bgvideo" onended="display()">
+        <video muted id="bgvideo" onended="display()">
             <source src="./vid/bg.mp4" type="video/mp4">
         </video>
     </div>
-
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

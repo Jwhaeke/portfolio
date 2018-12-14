@@ -24,10 +24,11 @@ body {
 .screen {
     opacity: 0.5;
     position: absolute;
-    border-radius: 50px;
-    border: 3px solid black;
+    border-radius: 5px;
+    border: 1px solid black;
     z-index: 1;
-    display: none;
+    /* display: none; */
+    margin-top: 7%;
     margin-left: 40%;
     overflow: hidden;
     height: 40vh;
@@ -35,15 +36,42 @@ body {
     background-color: black;
 }
 
-.screen video{
-    object-fit: contain;
+.screen video {
+    object-fit: fill;
     height: 100%;
     width: 100%;
 }
 
+#hide2 {
+    font-size: 4em;
+}
 
+.fas {
+    margin-top: 10%;
+    padding: 10%;
+}
+
+.screen a {
+    text-decoration: none;
+}
+
+.screen a:hover {
+    text-decoration: none;
+    color: tomato;
+}
+
+.screen a:active {
+    text-decoration: none;
+}
+
+.screen a:visited{
+    text-decoration: none;
+}
+ 
 
 .txt {
+    position: absolute;
+    z-index: 3;
     margin-top: 10%;
     margin-left: 80%;
     height: 150px;
@@ -58,3 +86,4 @@ body {
 .txt li {
     list-style: none;
 }
+
