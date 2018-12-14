@@ -27,7 +27,7 @@ body {
     border-radius: 5px;
     border: 1px solid black;
     z-index: 1;
-    /* display: none; */
+    display: none;
     margin-top: 7%;
     margin-left: 40%;
     overflow: hidden;
@@ -90,12 +90,29 @@ body {
     width: 250px;
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
     transform: skewY(175deg);
     display:none;
+    color: black;
+    opacity: 0.8;
 }
 
 .txt li {
     list-style: none;
 }
 
+#walkVid {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    object-fit: cover;
+}
+
+#gone {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+    object-fit: cover;
+}
