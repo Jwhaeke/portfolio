@@ -32,28 +32,16 @@ body {
     overflow: hidden;
     height: 40vh;
     width: 35%;
+    background-color: black;
 }
 
 .screen video{
-    object-fit: cover;
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
 }
 
 
-
-
-
-/* .video {
-    object-fit: cover;
-    opacity: 0.5;
-    margin-top: -13%;
-    margin-left: 40%;
-}
-
-.video video {
-    border-radius: 50px;
-    border: 3px solid black;
-    z-index: 99;
-} */
 
 .txt {
     margin-top: 10%;
