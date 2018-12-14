@@ -60,6 +60,18 @@ body {
     color: tomato;
 }
 
+#icon1:hover ~ .icons #about {
+    color: tomato  
+}
+
+#icon2:hover ~  .icons #projects {
+    color: tomato  
+}
+
+#icon3:hover ~ .icons #off {
+    color: tomato  
+}
+
 .screen a:active {
     text-decoration: none;
 }
