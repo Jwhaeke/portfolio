@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+/* header and background image should be about half the height of the screen and 100% width */
+/* profile pic should be right in the middle of the screen */
+.content {
+    height: 100%;
+    width: 100%;
+}
+
+/* Img may need additional editing to really shine in the background */
+
+.profileBg {
+    height: 50%;
+    width: 100%;
+    background-image: url("../img/cv_bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+        
+}
+
