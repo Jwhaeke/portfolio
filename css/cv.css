@@ -5,14 +5,13 @@ body {
     width: 100%;
 }
 
-/* header and background image should be about half the height of the screen and 100% width */
-/* profile pic should be right in the middle of the screen */
+
 .content {
     height: 100%;
     width: 100%;
 }
 
-/* Img may need additional editing to really shine in the background */
+/* The hero image is shown on the background with a rounded profile picture on top */
 
 .profileBg {
     height: 75%;
@@ -68,23 +67,38 @@ body {
     background-color: #00171F;
 }
 
+.lightContent {
+    height: 100%;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
 .aboutMe {
     padding-top: 5%;
-    color: whitesmoke;
+    color: #FFFFFF;
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
     margin-bottom: 5%;
+    font-weight: bold;
 }
 
-.card-deck {
-    height: 500px;
+.aboutMeDark {
+    padding-top: 5%;
+    color: #00171F;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 5%;
+    font-weight: bold;
 }
+
+/* Card height needs to be more responsive! */
 
 .card {
     -webkit-box-shadow: 0px 0px 15px 3px rgba(0,126,167,0.39);
     -moz-box-shadow: 0px 0px 15px 3px rgba(0,126,167,0.39);
     box-shadow: 0px 0px 15px 3px rgba(0,126,167,0.39);
     border: 2px solid white;
+    height: 500px;
 }
 
 .card-body {
