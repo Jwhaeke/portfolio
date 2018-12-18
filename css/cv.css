@@ -15,11 +15,41 @@ body {
 /* Img may need additional editing to really shine in the background */
 
 .profileBg {
-    height: 50%;
+    height: 75%;
     width: 100%;
-    background-image: url("../img/cv_bg.jpg");
+    background-image: url("../img/cv_hero.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-        
+    border-radius: 0;
+    }
+
+
+    
+.profilePic img {
+    position: relative;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+    left: 42%;
+    margin-bottom: 2%;
+}
+
+.top_indent {
+    margin-top: 5%;
+}
+
+.head_dark {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.head_light {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
