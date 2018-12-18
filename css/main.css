@@ -43,7 +43,7 @@ body {
 }
 
 #hide2 {
-    font-size: 4em;
+    font-size: 4vw;
 }
 
 .fas {
@@ -84,13 +84,11 @@ body {
 .txt {
     position: absolute;
     z-index: 3;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-left: 80%;
-    height: 150px;
-    width: 250px;
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 2vw;
     transform: skewY(175deg);
     display:none;
     color: black;
