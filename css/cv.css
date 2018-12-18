@@ -41,15 +41,55 @@ body {
 
 .head_dark {
     text-align: center;
-    color: black;
+    color: #00171F;
     font-size: 40px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 .head_light {
     text-align: center;
-    color: whitesmoke;
+    color: #FFFFFF;
     font-size: 40px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.readMore {
+    height: 25%;
+    text-align: center;
+    color: #00171F;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+
+.darkContent {
+    height: 100%;
+    width: 100%;
+    background-color: #00171F;
+}
+
+.aboutMe {
+    padding-top: 5%;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 5%;
+}
+
+.card-deck {
+    height: 500px;
+}
+
+.card {
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(0,126,167,0.39);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(0,126,167,0.39);
+    box-shadow: 0px 0px 15px 3px rgba(0,126,167,0.39);
+    border: 2px solid white;
+}
+
+.card-body {
+    background-color: #00171F;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+}
