@@ -90,7 +90,7 @@ body {
     font-weight: bold;
     font-size: 2vw;
     transform: skewY(175deg);
-    display:none;
+    /* display:none; */
     color: black;
     opacity: 0.8;
 }
