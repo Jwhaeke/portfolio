@@ -32,3 +32,18 @@ body {
     padding-right: 0;
     align-content: center;
 }
+
+#leader {
+    font-size: 5vw;
+}
+
+#lead {
+    font-size: 2vw;
+    color: #00a8e8;
+}
+
+#foot {
+    font-size: 2vw;
+    color: #007ea7;
+
+}
