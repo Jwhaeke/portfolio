@@ -61,14 +61,16 @@ body {
     font-weight: bold;
 }
 
+/* Increased height to 130% to ensure that on smaller screens the cards do not overflow into the next section. */
+
 .darkContent {
-    height: 100%;
+    height: 130%;
     width: 100%;
     background-color: #00171F;
 }
 
 .lightContent {
-    height: 100%;
+    height: 130%;
     width: 100%;
     background-color: #FFFFFF;
 }
@@ -91,14 +93,13 @@ body {
     font-weight: bold;
 }
 
-/* Card height needs to be more responsive! */
+/* Card height is not more responsive through the h-100 class in cards and img-fluid.  */
 
 .card {
     -webkit-box-shadow: 0px 0px 15px 3px rgba(0,126,167,0.39);
     -moz-box-shadow: 0px 0px 15px 3px rgba(0,126,167,0.39);
     box-shadow: 0px 0px 15px 3px rgba(0,126,167,0.39);
     border: 2px solid white;
-    height: 500px;
 }
 
 .card-body {
