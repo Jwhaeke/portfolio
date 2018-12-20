@@ -64,14 +64,10 @@ body {
 /* Increased height to 130% to ensure that on smaller screens the cards do not overflow into the next section. */
 
 .darkContent {
-    height: 130%;
-    width: 100%;
     background-color: #00171F;
 }
 
 .lightContent {
-    height: 130%;
-    width: 100%;
     background-color: #FFFFFF;
 }
 
