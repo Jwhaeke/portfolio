@@ -100,7 +100,13 @@ body {
     transition-duration: 0.3s;
 }
 
+a{
+    text-decoration: none;
+}
 
+a:hover{
+    text-decoration: none;
+}
 
 /* temp filler class */
 
