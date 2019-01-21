@@ -14,8 +14,6 @@ $visibility = "hidden";
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-
-
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet"> 
     <script type="text/javascript" src="javascript/main.js"></script>
 
@@ -37,7 +35,6 @@ $visibility = "hidden";
         <li id="off">Turn Off</li><br>
     </ul>
     </div>
-
 
     <?php
     if (!isset($_SESSION['Visit'])) {
