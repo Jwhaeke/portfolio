@@ -13,6 +13,10 @@ function display() {
 
 var links = '<div class="icons"><a onmouseout="lightOff()" onmouseover="lightUp()" id="icon1" href="./pages/cv.html" target="_blank"><i class="fas fa-user"></i></a><a onmouseout="lightOff2()" onmouseover="lightUp2()" id="icon2" href="./pages/projects.html" target="_blank"><i class="fas fa-file-code"></i></a><a onmouseout="lightOff3()" onmouseover="lightUp3()" id="icon3" onclick="return false;" href=""><i onclick="walked()" class="fas fa-power-off"></i></a></div>'
 
+function visited() {
+    document.getElementById("hide2").style.display = "block";
+    projects();
+}
 
 function projects() {
     document.getElementById("hide1").style.display = "block";
