@@ -115,3 +115,10 @@ body {
     object-fit: cover;
 }
 
+#reboot {
+    visibility: hidden;
+    top: 25%;
+    left: 35%;
+    height: 20%;
+    width: 20%;
+}

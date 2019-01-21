@@ -11,6 +11,13 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.navbar {
+    background-color: #00171f;
+    color: #00a8e8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+}
+
 /* container of card deck */
 .container-fluid {
     padding-right: 30px;

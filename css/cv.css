@@ -5,6 +5,12 @@ body {
     width: 100%;
 }
 
+.navbar {
+    background-color: #00171f;
+    color: #00a8e8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+}
 
 .content {
     height: 100%;
